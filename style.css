@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-dashboard {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-forms{
+    width: 30%;
+    height: 80%;
+}
+
+#add-new-investment-btn {
+    margin-bottom: 20px;
+}
+
+#investment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#investment-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#investment-list li:last-child {
+    border-bottom: none;
+}
+
+#pie-chart {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.add-new-investment-form, .update-investment-form {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-new-investment-form.show, .update-investment-form.show {
+    display: block;
+}
